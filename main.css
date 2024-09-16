@@ -1,0 +1,83 @@
+.section-title {
+    font-family: Pridi;
+    font-size: 32px;
+}
+
+body {
+    font-family: Pridi;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #59879e;
+}
+
+.nav-link {
+    background-color: #fff;
+}
+
+#sobre-o-projeto {
+    background-color: #59879e;
+    color: #fff;
+}
+
+.navbar,
+.navbar h1,
+.navbar a {
+    background-color: #34667c;
+    color: #fff;
+}
+
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-catalogo .nav-link.active,
+#contato button {
+    background-color: #fff;
+    color: #34667c;
+}
+
+.nav-catalogo .nav-link {
+    background-color: transparent;
+    color: #fff;
+}
+
+#catalogo {
+    background-color: #59879e;
+    color: #fff;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }    
+}
+
+.social-links  li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #34667c;
+}
+
+#contato button {
+    background-color: #34667c;
+    color: #fff;
+}
